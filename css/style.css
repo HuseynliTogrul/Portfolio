@@ -1,0 +1,405 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    object-fit: cover;
+}
+
+button {
+    transition: all .3s linear;
+}
+
+/* services basladi */
+
+#services {
+    background: url("/images/bg.jpg") no-repeat center center fixed #000;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.My-name {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.My-name a {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.elements {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.elements ul a {
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.elements ul a:hover {
+    color: #3c4043;
+    transition: all 0.5s ease 0s;
+}
+
+.navbar {
+    height: 542px;
+    margin-top: 270px;
+}
+
+.Hi p {
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.Hi span {
+    font-size: 30px;
+}
+
+/* services bitdi */
+/* about basladi */
+
+.item {
+    height: 880px;
+}
+
+.item-foto {
+    margin-top: 100px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.item-foto img {
+    padding: 10px;
+    background: #dddddd;
+    border-radius: 10%;
+}
+
+.about1{
+    width: 730px;
+}
+
+.about h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about span {
+    color: gray;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.about ul {
+    width: 730px;
+    margin-top: 40px;
+    font-size: 19px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about ul li {
+    width: 50%;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.about ul li:nth-child(2),
+.about ul li:nth-child(4){
+    margin-left: -40px;
+}
+.about ul li p {
+    margin-left: 15px;
+}
+
+.statistika{
+    height: 100%;
+    padding: 0px 130px;
+}
+
+.statistika ul li{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.cv button {
+    font-size: 20px;
+    background: black;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.cv button:hover {
+    background: white;
+    color: black;
+}
+
+/* about bitdi */
+/* portfolio basladi */
+
+#portfolio {
+    background: #f4f4f4;
+    height: 900px;
+}
+
+.my-works{
+    width: 1300px;
+}
+
+.my-works ul li img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.I-do h1 {
+    position: relative;
+}
+
+.my-works ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    height: 500px;
+}
+
+.my-works ul li {
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+}
+
+.my-works ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+/* portfolio bitdi */
+/* project basladi */
+
+#project {
+    height: 500px;
+}
+
+.hire {
+    height: 400px;
+    flex-direction: column;
+    background-color: #212121;
+}
+
+.hire span {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.hire button {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 15px;
+    background-color: #212121;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.hire button:hover {
+    background: white;
+    color: black;
+}
+
+/* project bitdi */
+/* contact basladi */
+
+.contact-get {
+    font-family: "Open Sans", sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.get,
+.I-do {
+    height: 200px;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.get h1 {
+    position: relative;
+}
+
+.get h1::after,
+.I-do h1::after {
+    position: absolute;
+    content: "";
+    top: 60%;
+    right: 105%;
+    width: 40%;
+    height: 3px;
+    background: black;
+}
+
+.get h1::before,
+.I-do h1::before {
+    position: absolute;
+    content: "";
+    right: -45%;
+    top: 60%;
+    width: 40%;
+    background: black;
+    height: 3px;
+}
+
+input {
+    border: none;
+    width: 570px;
+    height: 50px;
+    color: gray;
+    font-size: 20px;
+    padding-left: 15px;
+    border-bottom: 3px solid black;
+}
+
+.name p {
+    margin-bottom: 20px;
+}
+
+.gmail p {
+    margin-bottom: 20px;
+}
+
+.how {
+    border: none;
+    width: 570px;
+    height: 250px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+    border-bottom: 3px solid black;
+}
+
+.help p {
+    margin-top: 30px;
+}
+
+.message button {
+    padding: 20px 25px;
+    font-size: 17px;
+    background-color: #212121;
+    cursor: pointer;
+}
+
+.message button:hover {
+    background: white;
+    color: black;
+}
+
+/* contact bitdi */
+/* end basladi */
+
+.end-info {
+    margin-top: 80px;
+    background-color: #212121;
+    height: 400px;
+    flex-direction: column;
+}
+
+.end-contact {
+    margin-top: 150px;
+}
+
+.end-togrul {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.end-social {
+    margin: 20px 0;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.end-social i {
+    border-radius: 50%;
+    font-size: 25px;
+    background: #252525;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.end-social i:hover {
+    background: white;
+    color: black;
+}
+
+.end-word {
+    font-size: 20px;
+    color: gray;
+}
+
+/* end bitdi */
+
+
+.html-span,.css-span,.js-span,.sass-span{
+    display: flex;
+    flex-direction: column;
+}
+
+.h-span,.c-span,.j-span,.s-span{
+    width: 500px;
+    height: 10px;
+    background-color: rgb(0 0 0 / 15%);
+    position: relative;
+    border-radius: 50px;
+}
+
+.h-span p,.c-span p,.j-span p,.s-span p{
+    height: 100%;
+    background: #222;
+    border-radius: 50px;
+}
+
+.h-span p{
+    width: 90%;
+}
+
+.c-span p{
+    width: 90%;
+}
+
+.j-span p{
+    width: 60%;
+}
+
+.s-span p{
+    width: 80%;
+}
+
+.h-span h1,.c-span h1,.j-span h1,.s-span h1{
+    position: absolute;
+    top: -30px;
+    right: 60px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.j-span h1{
+    right: 210px;
+}
+
+.s-span h1{
+    right: 120px;
+}
