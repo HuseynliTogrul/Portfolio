@@ -18,7 +18,6 @@ button {
     background: url("/images/bg.jpg") no-repeat center center fixed #000;
     background-size: cover;
 }
-
 .container {
     margin: 0 auto;
 }
@@ -50,7 +49,7 @@ button {
 
 .elements ul a:hover {
     color: #3c4043;
-    transition: all 0.5s ease 0s;
+    transition: all 0.5s linear 0s;
 }
 
 .navbar {
@@ -82,8 +81,6 @@ button {
 }
 
 .item-foto img {
-    padding: 10px;
-    background: #dddddd;
     border-radius: 10%;
 }
 
@@ -124,7 +121,10 @@ button {
 .about ul li p {
     margin-left: 15px;
 }
-
+.about ul li i:hover{
+    color: rgb(0 0 0 / 15%);
+    transition: all 0.5s linear 0s;
+}
 .statistika{
     height: 100%;
     padding: 0px 130px;
@@ -196,6 +196,7 @@ button {
 .cv button:hover {
     background: white;
     color: black;
+    transition: all 0.5s linear 0s;
 }
 
 /* about bitdi */
@@ -208,10 +209,6 @@ button {
 
 .my-works{
     width: 1300px;
-}
-
-.my-works ul li img{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .I-do h1 {
@@ -267,6 +264,7 @@ button {
 .hire button:hover {
     background: white;
     color: black;
+    transition: all 0.5s linear 0s;
 }
 
 /* project bitdi */
@@ -364,6 +362,7 @@ input {
 .message button:hover {
     background: white;
     color: black;
+    transition: all 0.5s linear 0s;
 }
 
 /* contact bitdi */
@@ -406,6 +405,7 @@ input {
 .end-social i:hover {
     background: white;
     color: black;
+    transition: all 0.5s linear 0s;
 }
 
 .end-word {
@@ -414,4 +414,3 @@ input {
 }
 
 /* end bitdi */
-
