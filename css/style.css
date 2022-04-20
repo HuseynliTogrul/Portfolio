@@ -48,7 +48,7 @@ button {
 }
 
 .elements ul a:hover {
-    color: #3c4043;
+    border: 1px solid white;
     transition: all 0.5s linear 0s;
 }
 
