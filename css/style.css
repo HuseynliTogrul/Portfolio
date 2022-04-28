@@ -30,7 +30,7 @@ button {
 .My-name a {
     cursor: pointer;
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .elements { 
